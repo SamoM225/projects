@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-5 border rounded-2 border-1 border-dark p-2 mx-5">
+                <h2>Add Item</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputDescription" class="form-label">Description</label>
+                        <textarea class="form-control" id="exampleInputDescription"
+                            rows="3" placeholder="Description"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPrice" class="form-label">Price</label>
+                        <input type="number" class="form-control" id="exampleInputPrice" placeholder="Price">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputImage" class="form-label">Image</label>
+                        <input type="file" class="form-control" id="exampleInputImage">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </form>
+            </div>
+            <div class="col-md-5 rounded-2 border-1 border border-dark mx-4">
+                <h2>Manage Users</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputSearch" class="form-label">Search</label>
+                        <input type="text" class="form-control" id="exampleInputSearch" placeholder="Search">
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Username</th>
+                                <th scope="col">Role</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>JohnDoe</td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            User
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Admin</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-11 rounded-2 border border-1 border-dark m-4 align-items-center">
+                <h2>Manage Items</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputSearch" class="form-label">Search</label>
+                        <input type="text" class="form-control" id="exampleInputSearch" placeholder="Search">
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Test Item</td>
+                                <td>This is a test item.</td>
+                                <td>$100</td>
+                                <td><img src="img/test2.png" alt="test_image" width="100"></td>
+                                <td>
+                                    <button type="button" class="btn btn-success">Edit</button>
+                                    <button type="button" class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Another Item</td>
+                                <td>This is another test item.</td>
+                                <td>$50</td>
+                                <td><img src="img/test2.png" alt="test_image" width="100"></td>
+                                <td>
+                                    <button type="button" class="btn btn-success">Edit</button>
+                                    <button type="button" class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Random Item</td>
+                                <td>This is a random test item.</td>
+                                <td>$20</td>
+                                <td><img src="img/test2.png" alt="test_image" width="100"></td>
+                                <td>
+                                    <button type="button" class="btn btn-success">Edit</button>
+                                    <button type="button" class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>

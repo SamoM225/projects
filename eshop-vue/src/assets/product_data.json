@@ -1,0 +1,27 @@
+[
+  {
+    "name": "eldenring",
+    "displayName": "Elden Ring",
+    "price": 49.99,
+    "description": "Explore the Lands Between, a dark fantasy world created by Hidetaka Miyazaki and George R.R. Martin. Unleash your creativity as you customize your Tarnished character and embark on a journey to uncover the secrets of the Elden Ring."
+  },
+  {
+    "name": "gtav",
+    "displayName": "GTA V",
+    "price": 29.99,
+    "description": "Experience the latest installment of the Grand Theft Auto series, set in the city of Los Santos and its surrounding areas. Play as Michael, Franklin, and Trevor as they embark on a series of heists and missions in an open-world environment."
+  },
+  {
+    "name": "terraria",
+    "displayName": "Terraria",
+    "price": 9.99,
+    "description": "Dig and build in a 2D action-adventure game that combines exploration, crafting, and combat. Explore randomly generated worlds and fight off monsters to collect resources and build structures."
+  },
+  {
+    "name": "untildawn",
+    "displayName": "Until Dawn",
+    "price": 19.99,
+    "description": "Make choices that determine the fate of eight teenagers trapped on a mountain. Play as each character and make decisions that will impact the story and its multiple endings."
+  }
+]
+
