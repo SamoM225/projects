@@ -2,3 +2,5 @@
 
 
 ![obrázok](https://github.com/user-attachments/assets/7e94aee6-4c40-4747-9d6b-856fd9a97a41)
+
+![obrázok](https://github.com/user-attachments/assets/e53ccc36-d6ff-4062-94e1-26e8ed65e5b5)
