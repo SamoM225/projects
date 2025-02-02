@@ -1,14 +1,14 @@
 <template>
-    <div class="card mt-5" style="width: 18em; min-height: 24em; box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2); position: relative;">
-        <img :src="store.getGamePicutre(name)" class="card-img-top" alt="..." style="height: 150px;">
+    <div class="card p-1" style="width: 16.2em; min-height: 24em; box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2); position: relative;">
+        <img :src="store.getGamePicture(name)" class="card-img-top" alt="..." style="height: 135px;">
         <!-- <div class="position-absolute top-0 start-0 rounded-circle bg-danger text-white bdg">
             -20%</div> -->
         <div class="card-body text-center d-flex flex-column">
             <h5 class="card-title">{{ store.getGameName(name) }}</h5>
             <p class="card-text" style="font-size: 12px;">{{ store.getGameDescription(name) }}</p>
             <div class="d-flex justify-content-between align-items-center mt-auto">
-                <p class="mb-0">Price: ${{ store.getGamePrice(name) }}</p>
-                <a href="#" class="btn btn-success">Buy</a>
+                <p class="mb-0 fw-bold">${{ store.getGamePrice(name) }}</p>
+                <v-btn class="btn btn-success" style="border-radius: 20px;" @click="store.addItemToCart({ name: store.getGameName(name), price: store.getGamePrice(name) })">Add to cart</v-btn>
             </div>
         </div>
     </div>
@@ -23,7 +23,7 @@ export default {
     },
     data() {
         return {
-            store: useCounterStore()
+            store: useCounterStore(),
         }
     },
 }
@@ -31,6 +31,10 @@ export default {
 </script>
 
 <style>
+.card {
+    transition: transform 0.3s;
+}
+
 .card:hover {
     transform: scale(1.1);
 }
@@ -51,3 +55,4 @@ export default {
             10% 20%, 22% 22%, 20% 10%, 28% 15%, 32% 5%, 42% 10%);
 }
 </style>
+

@@ -1,27 +1,138 @@
 [
   {
+    "id": 1,
     "name": "eldenring",
     "displayName": "Elden Ring",
     "price": 49.99,
-    "description": "Explore the Lands Between, a dark fantasy world created by Hidetaka Miyazaki and George R.R. Martin. Unleash your creativity as you customize your Tarnished character and embark on a journey to uncover the secrets of the Elden Ring."
+    "description": "Explore a dark fantasy world by Miyazaki.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg"
   },
   {
+    "id": 2,
     "name": "gtav",
     "displayName": "GTA V",
     "price": 29.99,
-    "description": "Experience the latest installment of the Grand Theft Auto series, set in the city of Los Santos and its surrounding areas. Play as Michael, Franklin, and Trevor as they embark on a series of heists and missions in an open-world environment."
+    "description": "Open-world heists in Los Santos.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg"
   },
   {
+    "id": 3,
     "name": "terraria",
     "displayName": "Terraria",
     "price": 9.99,
-    "description": "Dig and build in a 2D action-adventure game that combines exploration, crafting, and combat. Explore randomly generated worlds and fight off monsters to collect resources and build structures."
+    "description": "2D adventure with crafting and exploration.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg"
   },
   {
+    "id": 4,
     "name": "untildawn",
     "displayName": "Until Dawn",
     "price": 19.99,
-    "description": "Make choices that determine the fate of eight teenagers trapped on a mountain. Play as each character and make decisions that will impact the story and its multiple endings."
+    "description": "Choices determine fate of eight teenagers.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Until_Dawn_cover_art.jpg"
+  },
+  {
+    "id": 5,
+    "name": "cyberpunk2077",
+    "displayName": "Cyberpunk 2077",
+    "price": 59.99,
+    "description": "Futuristic open-world RPG in Night City.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg"
+  },
+  {
+    "id": 6,
+    "name": "witcher3",
+    "displayName": "The Witcher 3",
+    "price": 39.99,
+    "description": "Epic fantasy adventure with Geralt of Rivia.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg"
+  },
+  {
+    "id": 7,
+    "name": "reddeadredemption2",
+    "displayName": "Red Dead Redemption 2",
+    "price": 59.99,
+    "description": "Western epic with Arthur Morgan's journey.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg"
+  },
+  {
+    "id": 8,
+    "name": "horizonzerodawn",
+    "displayName": "Horizon Zero Dawn",
+    "price": 29.99,
+    "description": "Post-apocalyptic world with robotic creatures.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1151640/header.jpg"
+  },
+  {
+    "id": 9,
+    "name": "godofwar",
+    "displayName": "God of War",
+    "price": 49.99,
+    "description": "Norse mythology adventure with Kratos.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg"
+  },
+  {
+    "id": 10,
+    "name": "spiderman",
+    "displayName": "Spider-Man",
+    "price": 39.99,
+    "description": "Swing through New York as Spider-Man.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0e/Spider-Man_PS4_cover.jpg"
+  },
+  {
+    "id": 11,
+    "name": "assassinscreedodyssey",
+    "displayName": "Assassin's Creed Odyssey",
+    "price": 29.99,
+    "description": "Ancient Greek adventure with Kassandra.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/812140/header.jpg"
+  },
+  {
+    "id": 12,
+    "name": "breathofthewild",
+    "displayName": "The Legend of Zelda: Breath of the Wild",
+    "price": 59.99,
+    "description": "Open-world adventure in Hyrule.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+  },
+  {
+    "id": 13,
+    "name": "finalfantasyxv",
+    "displayName": "Final Fantasy XV",
+    "price": 49.99,
+    "description": "Epic journey with Prince Noctis.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/637650/header.jpg"
+  },
+  {
+    "id": 14,
+    "name": "doom",
+    "displayName": "Doom",
+    "price": 19.99,
+    "description": "Fast-paced demon-slaying action.",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/379720/header.jpg"
+  },
+  {
+    "id": 15,
+    "name": "overwatch",
+    "displayName": "Overwatch",
+    "price": 39.99,
+    "description": "Team-based multiplayer shooter.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Overwatch_cover_art.jpg"
+  },
+  {
+    "id": 16,
+    "name": "fortnite",
+    "displayName": "Fortnite",
+    "price": 0.00,
+    "description": "Battle Royale with building mechanics.",
+    "image": "https://cdn2.unrealengine.com/Fortnite%2Fbattle-royale%2Fbattlepass%2Fchapter-2-season-7%2FBR07_Social_Announce_Keyart_1920x1080-1920x1080-0a0f1a2f4d1f0a0c0a0a0a0a0a0a0a0a.jpg"
+  },
+  {
+    "id": 17,
+    "name": "minecraft",
+    "displayName": "Minecraft",
+    "price": 26.95,
+    "description": "Sandbox building and survival game.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
   }
 ]
-
