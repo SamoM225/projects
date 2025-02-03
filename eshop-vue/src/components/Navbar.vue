@@ -20,7 +20,7 @@
                         <a class="nav-link" href="#"><i class="bi bi-person-circle"></i> Account</a>
                     </li>
                     <li class="nav-item cart">
-                        <button type="button" class="btn btn-secondary"><i class="bi bi-cart"></i> Shopping Cart</button>
+                        <button type="button" class="btn btn-secondary"><router-link class="nav-link" to="/shoppingcart"><i class="bi bi-cart"></i> Shopping Cart</router-link></button>
                     </li>
                 </ul>
             </div>

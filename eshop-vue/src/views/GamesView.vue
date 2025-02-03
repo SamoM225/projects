@@ -28,7 +28,7 @@ export default {
             <!-- Stredný panel - Hry -->
             <div class="col-12 col-md-8 order-md-2">
                 <div class="row g-3">
-                    <div class="col-md-4 mb-4" v-for="game in product_data" :key="game.id">
+                    <div class="col-md-4 mb-4" v-for="game in product_data" v-show="store.isGameVisible(game.name)"  :key="game.id">
                         <ProductCard :name="game.name" />
                     </div>
                 </div>

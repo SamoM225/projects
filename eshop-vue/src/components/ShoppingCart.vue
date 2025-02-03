@@ -11,7 +11,7 @@
                     <input type="number" v-model.number="item.quantity" min="0" max="10"
                         style="width: 50px; text-align: center;"
                         @change="item.quantity == 0 ? store.removeItemFromCart({id: item.id}) : null">
-                    <span>${{ Math.round((item.price * item.quantity) * 100) / 100 }}</span>
+                    <span>${{ Math.round(item.price * item.quantity * 100) / 100 }}</span>
                 </div>
             </transition-group>
 
@@ -22,7 +22,7 @@
                 <span>${{ store.getTotalPrice }}</span>
             </div>
 
-            <button type="button" class="btn btn-secondary w-100">Proceed to checkout</button>
+            <button type="button" class="btn btn-secondary w-100"><router-link class="nav-link" to="/shoppingcart">Proceed to checkout</router-link></button>
         </div>
     </transition>
 </template>

@@ -5,7 +5,8 @@
     "displayName": "Elden Ring",
     "price": 49.99,
     "description": "Explore a dark fantasy world by Miyazaki.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg",
+    "categories": ["Dark Fantasy", "Action", "Adventure", "Role-playing"]
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "displayName": "GTA V",
     "price": 29.99,
     "description": "Open-world heists in Los Santos.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
+    "categories": ["Open World", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "displayName": "Terraria",
     "price": 9.99,
     "description": "2D adventure with crafting and exploration.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg",
+    "categories": ["2D", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "displayName": "Until Dawn",
     "price": 19.99,
     "description": "Choices determine fate of eight teenagers.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Until_Dawn_cover_art.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Until_Dawn_cover_art.jpg",
+    "categories": ["Interactive Storytelling", "Action", "Adventure", "Role-playing"]
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "displayName": "Cyberpunk 2077",
     "price": 59.99,
     "description": "Futuristic open-world RPG in Night City.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
+    "categories": ["Cyberpunk", "Open World", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "displayName": "The Witcher 3",
     "price": 39.99,
     "description": "Epic fantasy adventure with Geralt of Rivia.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg",
+    "categories": ["Fantasy", "Action", "Adventure", "Role-playing"]
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "displayName": "Red Dead Redemption 2",
     "price": 59.99,
     "description": "Western epic with Arthur Morgan's journey.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg",
+    "categories": ["Western", "Open World", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "displayName": "Horizon Zero Dawn",
     "price": 29.99,
     "description": "Post-apocalyptic world with robotic creatures.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1151640/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1151640/header.jpg",
+    "categories": ["Post-apocalyptic", "Action", "Adventure", "Role-playing"]
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "displayName": "God of War",
     "price": 49.99,
     "description": "Norse mythology adventure with Kratos.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg",
+    "categories": ["Norse Mythology", "Action", "Adventure", "Role-playing"]
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "displayName": "Spider-Man",
     "price": 39.99,
     "description": "Swing through New York as Spider-Man.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/0/0e/Spider-Man_PS4_cover.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0e/Spider-Man_PS4_cover.jpg",
+    "categories": ["Superhero", "Action", "Adventure", "Role-playing"]
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "displayName": "Assassin's Creed Odyssey",
     "price": 29.99,
     "description": "Ancient Greek adventure with Kassandra.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/812140/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/812140/header.jpg",
+    "categories": ["Ancient Greece", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "displayName": "The Legend of Zelda: Breath of the Wild",
     "price": 59.99,
     "description": "Open-world adventure in Hyrule.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    "categories": ["Fantasy", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "displayName": "Final Fantasy XV",
     "price": 49.99,
     "description": "Epic journey with Prince Noctis.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/637650/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/637650/header.jpg",
+    "categories": ["Fantasy", "Action", "Adventure", "Role-playing"]
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "displayName": "Doom",
     "price": 19.99,
     "description": "Fast-paced demon-slaying action.",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/379720/header.jpg"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/379720/header.jpg",
+    "categories": ["First-person Shooter", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "displayName": "Overwatch",
     "price": 39.99,
     "description": "Team-based multiplayer shooter.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Overwatch_cover_art.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Overwatch_cover_art.jpg",
+    "categories": ["Team-based Shooter", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "displayName": "Fortnite",
     "price": 0.00,
     "description": "Battle Royale with building mechanics.",
-    "image": "https://cdn2.unrealengine.com/Fortnite%2Fbattle-royale%2Fbattlepass%2Fchapter-2-season-7%2FBR07_Social_Announce_Keyart_1920x1080-1920x1080-0a0f1a2f4d1f0a0c0a0a0a0a0a0a0a0a.jpg"
+    "image": "https://cdn2.unrealengine.com/Fortnite%2Fbattle-royale%2Fbattlepass%2Fchapter-2-season-7%2FBR07_Social_Announce_Keyart_1920x1080-1920x1080-0a0f1a2f4d1f0a0c0a0a0a0a0a0a0a0a.jpg",
+    "categories": ["Battle Royale", "Action", "Adventure", "Role-playing", "Simulation"]
   },
   {
     "id": 17,
@@ -133,6 +149,7 @@
     "displayName": "Minecraft",
     "price": 26.95,
     "description": "Sandbox building and survival game.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+    "categories": ["Sandbox", "Action", "Adventure", "Role-playing", "Simulation"]
   }
 ]

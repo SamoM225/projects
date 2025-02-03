@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "2D"
+    },
+    {
+        "id": 2,
+        "name": "Action"
+    },
+    {
+        "id": 3,
+        "name": "Adventure"
+    },
+    {
+        "id": 4,
+        "name": "Ancient Greece"
+    },
+    {
+        "id": 5,
+        "name": "Battle Royale"
+    },
+    {
+        "id": 6,
+        "name": "Dark Fantasy"
+    },
+    {
+        "id": 7,
+        "name": "Fantasy"
+    },
+    {
+        "id": 8,
+        "name": "First-person Shooter"
+    },
+    {
+        "id": 9,
+        "name": "Interactive Storytelling"
+    },
+    {
+        "id": 10,
+        "name": "Open World"
+    },
+    {
+        "id": 11,
+        "name": "Role-playing"
+    },
+    {
+        "id": 12,
+        "name": "Sandbox"
+    },
+    {
+        "id": 13,
+        "name": "Simulation"
+    },
+    {
+        "id": 14,
+        "name": "Team-based Shooter"
+    }
+]
