@@ -1,33 +1,9 @@
-# eshop-vue
+![obrázok](https://github.com/user-attachments/assets/66b11d0e-3ac3-41c8-8cb6-edf9a469b2a0)
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+![obrázok](https://github.com/user-attachments/assets/7e94aee6-4c40-4747-9d6b-856fd9a97a41)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![obrázok](https://github.com/user-attachments/assets/e53ccc36-d6ff-4062-94e1-26e8ed65e5b5)
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+![obrázok](https://github.com/user-attachments/assets/10c787fd-bffd-4182-8a2c-bfd8630d5334)
